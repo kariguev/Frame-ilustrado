@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frame Ilustrado</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fefcfb;
+      color: #333;
+    }
+    header {
+      background-color: #3f3d56;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #3f3d56;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .categorias {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .categoria {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+    }
+    footer {
+      background-color: #3f3d56;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Frame Ilustrado</h1>
+    <p>Arte impreso de tu universo</p>
+  </header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section id="inicio">
+    <h2>Bienvenid@ a tu rincón de arte personalizado</h2>
+    <p>Explora mundos mágicos, recuerdos nostálgicos y tus historias favoritas en arte impreso.</p>
+  </section>
+  <section id="catalogo">
+    <h2>Categorías de Pósters</h2>
+    <div class="categorias">
+      <div class="categoria">
+        <h3>Anime</h3>
+        <p>Pósters de tus animes favoritos.</p>
+      </div>
+      <div class="categoria">
+        <h3>Películas</h3>
+        <p>Escenas icónicas del cine ilustradas con amor.</p>
+      </div>
+      <div class="categoria">
+        <h3>Caricaturas</h3>
+        <p>Revive la infancia con un toque artístico.</p>
+      </div>
+      <div class="categoria">
+        <h3>Personalizados</h3>
+        <p>¡Crea un diseño único solo para ti!</p>
+      </div>
+    </div>
+  </section>
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes una idea genial o una duda? Escríbenos en nuestras redes o al correo: contacto@frameilustrado.com</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Frame Ilustrado. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
